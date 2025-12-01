@@ -125,6 +125,31 @@ function App() {
         </div>
       </section>
 
+      {/* Layer 0 Skip Strategy */}
+      <section className="py-16 px-6 md:px-20 bg-[#0a0a0a] border-b border-gray-900">
+        <div className="max-w-6xl mx-auto flex flex-col items-center">
+          <h2 className="text-2xl md:text-3xl font-bold font-['Orbitron'] text-white mb-8">
+            LAYER 0 <span className="text-[#FF8C00]">SKIP PROTOCOL</span>
+          </h2>
+          
+          <div className="relative w-full max-w-sm aspect-[9/16] bg-black border border-gray-800 rounded-lg overflow-hidden shadow-[0_0_30px_rgba(255,140,0,0.1)] group">
+            <iframe 
+              className="absolute inset-0 w-full h-full opacity-90 group-hover:opacity-100 transition-opacity duration-500"
+              src="https://www.youtube.com/embed/3M4MPxfFkbM" 
+              title="Layer 0 Skip Strategy"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
+             <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/50 to-transparent"></div>
+          </div>
+          
+          <p className="mt-6 text-gray-400 text-sm tracking-widest uppercase">
+            // HIDDEN PATHWAY DISCOVERED
+          </p>
+        </div>
+      </section>
+
       {/* Video Showcase */}
       <section className="py-20 px-6 md:px-20 bg-[#050505] border-b border-gray-900">
         <div className="max-w-6xl mx-auto text-center">
@@ -139,7 +164,7 @@ function App() {
             {/* YouTube Placeholder / Iframe */}
             <iframe 
               className="absolute inset-0 w-full h-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&rel=0" 
+              src="https://www.youtube.com/embed/gPwGSzGOlac?si=Xyq3l9SewAQKso8Z" 
               title="NEXUS GUARD Gameplay Demo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
