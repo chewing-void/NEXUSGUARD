@@ -125,6 +125,33 @@ function App() {
         </div>
       </section>
 
+      {/* Video Showcase */}
+      <section className="py-20 px-6 md:px-20 bg-[#050505] border-b border-gray-900">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold font-['Orbitron'] mb-4 text-white">
+            TACTICAL <span className="text-[#FF0000]">FEED</span>
+          </h2>
+          <p className="text-gray-500 mb-12 tracking-[0.3em] text-sm font-bold">
+            // OFFICIAL GAMEPLAY DEMONSTRATION
+          </p>
+          
+          <div className="relative w-full aspect-video bg-black border border-gray-800 rounded-lg overflow-hidden shadow-[0_0_30px_rgba(255,0,0,0.1)] group">
+            {/* YouTube Placeholder / Iframe */}
+            <iframe 
+              className="absolute inset-0 w-full h-full opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&rel=0" 
+              title="NEXUS GUARD Gameplay Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
+            
+            {/* Overlay for "Coming Soon" feel if needed */}
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/50 to-transparent"></div>
+          </div>
+        </div>
+      </section>
+
       {/* Story Section */}
       <section id="story" className="py-20 px-6 md:px-20 bg-[#050505] relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#00FF00]/50 to-transparent"></div>
